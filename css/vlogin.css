@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 140%;
+    background-color: #EDF0F4 !important;
+}
+
+header {
+    height: 20%;
+}
+
+.nav1 {
+    background-color: rgb(249, 188, 74);
+    margin: 4px;
+    padding: 5px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 img {
+    border-radius: 50%;
+}
+
+.nav1 img:hover {
+    box-shadow: #4CAF50;
+}
+
+.head-h1 {
+    margin-right: 650px;
+}
+
+.head-h1 h1:hover {
+    font-weight: bolder;
+}
+
+.nav1 img {
+    width: 70px;
+    margin-left: 50px;
+}
+
+.nav2 {
+    margin: 10px;
+}
+
+.nav2 nav {
+    background-color: #083e54;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.nav2 a {
+    color: white;
+}
+
+main {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3 {
+    display: flex;
+    margin: 30px;
+
+}
+
+.cand-login {
+    width: 600px;
+    height: 450px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    height: 450px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.cand-login label {
+    display: block;
+}
+
+.cand-login input[type="text"],
+.cand-login input[type="password"],
+.cand-login input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cand-login button {
+    background-color: rgb(249, 188, 74);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cand-login button:hover {
+    font-weight: bolder;
+    background-color: #4CAF50;
+}
+
+#form-h5 {
+    text-align: center;
+}
+
+#form-h5 a:hover {
+    font-weight: 900;
+}
+
+footer {
+    background-color: #222f3d;
+    color: #fff;
+    height: 30%;
+    margin-top: 15px;
+}
+
+.back-to-top {
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.back-to-top:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.foot-panel2 a:hover {
+    text-decoration: solid;
+    font-weight: bolder;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    border-top: 0.5px solid rgb(103, 103, 103);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-copy {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-copy:hover {
+    background-color: black;
+}

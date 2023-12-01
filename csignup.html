@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candidate Signup</title>
+</head>
+<body>
+    <h1>Candidate Signup</h1>
+    <p>Interested in running for office? Fill out the following information to sign up as a political candidate:</p>
+    <form action="submit_candidate_signup.php" method="post">
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth" required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number" required><br><br>
+
+        <label for="political_party">Political Party (if applicable):</label>
+        <input type="text" id="political_party" name="political_party"><br><br>
+
+        <label for="campaign_website">Campaign Website (if applicable):</label>
+        <input type="url" id="campaign_website" name="campaign_website"><br><br>
+
+        <label for="campaign_platform">Campaign Platform:</label>
+        <textarea id="campaign_platform" name="campaign_platform" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
